@@ -1,0 +1,53 @@
+/* Custom Colors */
+
+
+.text-primary {
+    color: #1e90ff !important;
+}
+
+/* Custom Typography */
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+}
+
+/* Contact Form */
+.contact-section .form-control {
+    border-radius: 0;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2d2d2d;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    padding-top: 1px; /* Adjust this value depending on your navbar height */
+  }
+               
+  
+/* CSS File */
+.course-img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    perspective: 1000px; /* Adding perspective for 3D effect */
+    display: block; /* Ensure it's displayed as a block */
+    margin: auto; /* Center align */
+}
+
+.card {
+    overflow: hidden; /* Prevent overflow of child elements */
+}
+
+.card:hover .course-img {
+    transform: translateZ(20px) scale(1.05); /* Scale and translate for a 3D effect */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
